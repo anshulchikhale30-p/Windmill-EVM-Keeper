@@ -13,9 +13,6 @@ function requireEnv(name: string): string {
 export const config = {
   rpcUrl: requireEnv("RPC_URL"),
   privateKey: requireEnv("PRIVATE_KEY"),
-export const config = {
-  rpcUrl: requireEnv("RPC_URL"),
-  privateKey: requireEnv("PRIVATE_KEY"),
   pollInterval: (() => {
     const raw = process.env.POLL_INTERVAL ?? "10000";
     const value = Number.parseInt(raw, 10);
@@ -24,5 +21,4 @@ export const config = {
     }
     return value;
   })()
-};
 };
