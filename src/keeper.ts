@@ -14,13 +14,14 @@ export class Keeper {
     console.log(" Keeper started...");
     console.log("Connected wallet:", this.wallet.address);
 
-    setInterval(async () => {
-      try {
+     while (true) {
+       try {
         await this.check();
       } catch (error) {
         console.error("Error during keeper execution:", error);
       }
-    }, config.pollInterval);
+      await new Promise<void>((resolve) => setTimeout(resolve, config.pollInterval));
+    }
   }
 
   private async check(): Promise<void> {
