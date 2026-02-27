@@ -46,7 +46,13 @@ export class Keeper {
   }
 
   private async check(): Promise<void> {
-    const blockNumber = await this.provider.getBlockNumber();
+    const timeoutMs = 30000; // 30 seconds
+  const blockNumber = await Promise.race([
+    this.provider.getBlockNumber(),
+    new Promise<never>((_, reject) => 
+      setTimeout(() => reject(new Error("RPC call timed out")), timeoutMs)
+    )
+  ]);
     console.log(`Current block: ${blockNumber}`);
 
     // Future:
