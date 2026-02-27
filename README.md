@@ -3,7 +3,7 @@
 
 <!-- Organization Logo -->
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
-  <img alt="AOSSIE" src="public/aossie-logo.svg" width="175">
+  <img alt="Stability Nexus" src="public/stability.svg" width="175">
   <img src="public/todo-project-logo.svg" width="175" />
 </div>
 
@@ -12,7 +12,7 @@
 <!-- Organization Name -->
 <div align="center">
 
-[![Static Badge](https://img.shields.io/badge/aossie.org/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.aossie.org/)
+[![Static Badge](https://img.shields.io/badge/Stability_Nexus-/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.stability.nexus/)
 
 <!-- Correct deployed url to be added -->
 
@@ -25,24 +25,24 @@
 <img src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&logoSize=auto&color=24A1DE" alt="Telegram Badge"/></a>
 &nbsp;&nbsp;
 <!-- X (formerly Twitter) -->
-<a href="https://x.com/aossie_org">
-<img src="https://img.shields.io/twitter/follow/aossie_org" alt="X (formerly Twitter) Badge"/></a>
+<a href="https://x.com/StabilityNexus">
+<img src="https://img.shields.io/twitter/follow/StabilityNexus" alt="X (formerly Twitter) Badge"/></a>
 &nbsp;&nbsp;
 <!-- Discord -->
-<a href="https://discord.gg/hjUhu33uAn">
-<img src="https://img.shields.io/discord/1022871757289422898?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287" alt="Discord Badge"/></a>
+<a href="https://discord.gg/YzDKeEfWtS">
+<img src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287" alt="Discord Badge"/></a>
 &nbsp;&nbsp;
 <!-- Medium -->
 <a href="https://news.stability.nexus/">
   <img src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white" alt="Medium Badge"></a>
 &nbsp;&nbsp;
 <!-- LinkedIn -->
-<a href="https://www.linkedin.com/company/aossie/">
+<a href="https://linkedin.com/company/stability-nexus">
   <img src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2" alt="LinkedIn Badge"></a>
 &nbsp;&nbsp;
 <!-- Youtube -->
-<a href="https://www.youtube.com/@AOSSIE-Org">
-  <img src="https://img.shields.io/youtube/channel/subscribers/UCKVVLbawY7Gej_3o2WKsoiA?style=flat&logo=youtube&logoColor=white%20&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
+<a href="https://www.youtube.com/@StabilityNexus">
+  <img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
 </p>
 
 ---
@@ -55,151 +55,89 @@
 
 ---
 
-## 🚀 Features
+## Project Maturity
 
-TODO: List your main features here:
+TODO: In the checklist below, mark the items that have been completed and delete items that are not applicable to the current project:
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Feature 4**: Description
-
----
-
-## 💻 Tech Stack
-
-TODO: Update based on your project
-
-### Frontend
-- React / Next.js / Flutter / React Native
-- TypeScript
-- TailwindCSS
-
-### Backend
-- Flask / FastAPI / Node.js / Supabase
-- Database: PostgreSQL / SQLite / MongoDB
-
-### AI/ML (if applicable)
-- LangChain / LangGraph / LlamaIndex
-- Google Gemini / OpenAI / Anthropic Claude
-- Vector Database: Weaviate / Pinecone / Chroma
-- RAG / Prompt Engineering / Agent Frameworks
-
-### Blockchain (if applicable)
-- Solidity / solana / cardano / ergo Smart Contracts
-- Hardhat / Truffle / foundry
-- Web3.js / Ethers.js / Wagmi
-- OpenZeppelin / alchemy / Infura
-
----
-
-## ✅ Project Checklist
-
-TODO: Complete applicable items based on your project type
-
-- [ ] **The protocol** (if applicable):
+* [ ] The project has a logo.
+* [ ] The project has a favicon.
+* [ ] The protocol:
    - [ ] has been described and formally specified in a paper.
    - [ ] has had its main properties mathematically proven.
    - [ ] has been formally verified.
-- [ ] **The smart contracts** (if applicable):
+* [ ] The smart contracts:
    - [ ] were thoroughly reviewed by at least two knights of The Stable Order.
-   - [ ] were deployed to: [Add deployment details]
-- [ ] **The mobile app** (if applicable):
+   - [ ] were deployed to:
+      - [ ] Ergo
+      - [ ] Cardano
+      - [ ] EVM Chains:
+        - [ ] Ethereum Classic
+        - [ ] Ethereum
+        - [ ] Polygon
+        - [ ] BSC
+        - [ ] Base
+* [ ] The mobile app:
    - [ ] has an _About_ page containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
    - [ ] is available for download as a release in this repo.
    - [ ] is available in the relevant app stores.
-- [ ] **The AI/ML components** (if applicable):
-   - [ ] LLM/model selection and configuration are documented.
-   - [ ] Prompts and system instructions are version-controlled.
-   - [ ] Content safety and moderation mechanisms are implemented.
-   - [ ] API keys and rate limits are properly managed.
+* [ ] The web frontend:
+   - [ ] has proper title and metadata.
+   - [ ] has proper open graph metadata, to ensure that it is shown well when shared in social media (Discord, Telegram, Twitter, LinkedIn).
+   - [ ] has a footer, containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
+   - [ ] is fully static and client-side.
+   - [ ] is deployed to Github Pages via a Github Workflow.
+   - [ ] is accessible through the https://TODO:PROJECT-NAME.stability.nexus domain.
+* [ ] the project is listed in [https://stability.nexus/protocols](https://stability.nexus/protocols).
 
 ---
 
-## 🔗 Repository Links
+## Tech Stack
 
-TODO: Update with your repository structure
+TODO:
 
-1. [Main Repository](https://github.com/AOSSIE-Org/TODO)
-2. [Frontend](https://github.com/AOSSIE-Org/TODO/tree/main/frontend) (if separate)
-3. [Backend](https://github.com/AOSSIE-Org/TODO/tree/main/backend) (if separate)
+### Frontend
 
----
+TODO:
 
-## 🏗️ Architecture Diagram
+- Next.js 14+ (React)
+- TypeScript
+- TailwindCSS
+- shadcn/ui
 
-TODO: Add your system architecture diagram here
+### Blockchain
 
-```
-[Architecture Diagram Placeholder]
-```
+TODO:
 
-You can create architecture diagrams using:
-- [Draw.io](https://draw.io)
-- [Excalidraw](https://excalidraw.com)
-- [Lucidchart](https://lucidchart.com)
-- [Mermaid](https://mermaid.js.org) (for code-based diagrams)
-
-Example structure to include:
-- Frontend components
-- Backend services
-- Database architecture
-- External APIs/services
-- Data flow between components
+- Wagmi
+- Solidity Smart Contracts
+- Ethers.js
 
 ---
 
-## 🔄 User Flow
-
-TODO: Add user flow diagrams showing how users interact with your application
-
-```
-[User Flow Diagram Placeholder]
-```
-
-### Key User Journeys
-
-TODO: Document main user flows:
-
-1. **User Journey 1**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-2. **User Journey 2**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
-3. **User Journey 3**: Description
-   - Step 1
-   - Step 2
-   - Step 3
-
----
-
-## �🍀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-TODO: List what developers need installed
+TODO
 
-- Node.js 18+ / Python 3.9+ / Flutter SDK
-- npm / yarn / pnpm
-- [Any specific tools or accounts needed]
+- Node.js 18+
+- npm/yarn/pnpm
+- MetaMask or any other web3 wallet browser extension
 
 ### Installation
 
-TODO: Provide detailed setup instructions
+TODO
 
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AOSSIE-Org/TODO.git
+git clone https://github.com/StabilityNexus/TODO.git
 cd TODO
 ```
 
 #### 2. Install Dependencies
+
+Using your preferred package manager:
 
 ```bash
 npm install
@@ -209,17 +147,9 @@ yarn install
 pnpm install
 ```
 
-#### 3. Configure Environment Variables(.env.example)
+#### 3. Run the Development Server
 
-Create a `.env` file in the root directory:
-
-```env
-# Add your environment variables here
-API_KEY=your_api_key
-DATABASE_URL=your_database_url
-```
-
-#### 4. Run the Development Server
+Start the app locally:
 
 ```bash
 npm run dev
@@ -229,52 +159,30 @@ yarn dev
 pnpm dev
 ```
 
-#### 5. Open your Browser
+#### 4. Open your Browser
 
 Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-For detailed setup instructions, please refer to our [Installation Guide](./docs/INSTALL_GUIDE.md) (if you have one).
-
 ---
 
-## 📱 App Screenshots
+## Contributing
 
-TODO: Add screenshots showcasing your application
+We welcome contributions of all kinds! To contribute:
 
-|  |  |  |
-|---|---|---|
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+1. Fork the repository and create your feature branch (`git checkout -b feature/AmazingFeature`).
+2. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+3. Run the development workflow commands to ensure code quality:
+   - `npm run format:write`
+   - `npm run lint:fix`
+   - `npm run typecheck`
+4. Push your branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request for review.
 
----
+If you encounter bugs, need help, or have feature requests:
 
-## 🙌 Contributing
+- Please open an issue in this repository providing detailed information.
+- Describe the problem clearly and include any relevant logs or screenshots.
 
-⭐ Don't forget to star this repository if you find it useful! ⭐
+We appreciate your feedback and contributions!
 
-Thank you for considering contributing to this project! Contributions are highly appreciated and welcomed. To ensure smooth collaboration, please refer to our [Contribution Guidelines](./CONTRIBUTING.md).
-
----
-
-## ✨ Maintainers
-
-TODO: Add maintainer information
-
-- [Maintainer Name](https://github.com/username)
-- [Maintainer Name](https://github.com/username)
-
----
-
-## 📍 License
-
-This project is licensed under the GNU General Public License v3.0.
-See the [LICENSE](LICENSE) file for details.
-
----
-
-## 💪 Thanks To All Contributors
-
-Thanks a lot for spending your time helping TODO grow. Keep rocking 🥂
-
-[![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/TODO)](https://github.com/AOSSIE-Org/TODO/graphs/contributors)
-
-© 2025 AOSSIE 
+© 2025 The Stable Order.
