@@ -14,8 +14,8 @@ export class Keeper {
     console.log(" Keeper started...");
     console.log("Connected wallet:", this.wallet.address);
 
-     while (true) {
-       try {
+    while (true) {
+      try {
         await this.check();
       } catch (error) {
         console.error("Error during keeper execution:", error);
