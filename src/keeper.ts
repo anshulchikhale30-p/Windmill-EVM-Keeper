@@ -20,14 +20,14 @@ export class Keeper {
 
     this.running = true;
 
-    console.log("🚀 Keeper started...");
+    console.log("Keeper started...");
     console.log("Connected wallet:", this.wallet.address);
 
     await this.runLoop();
   }
 
   public stop(): void {
-    console.log("🛑 Stopping keeper...");
+    console.log("Stopping keeper...");
     this.running = false;
   }
 
@@ -47,7 +47,7 @@ export class Keeper {
 
   private async check(): Promise<void> {
     const blockNumber = await this.provider.getBlockNumber();
-    console.log(`📦 Current block: ${blockNumber}`);
+    console.log(`Current block: ${blockNumber}`);
 
     // Future:
     // - Check protocol conditions
