@@ -1,4 +1,3 @@
-// Follow-up commit after mentor review confirming CodeRabbit issues addressed
 import { ethers } from "ethers";
 import { config } from "./config";
 
